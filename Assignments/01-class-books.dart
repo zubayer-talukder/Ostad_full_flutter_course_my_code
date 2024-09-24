@@ -4,6 +4,13 @@ class book {
   String? author;
   int? publication_year;
   int? pagesRead;
+
+// static variable
+  static int totalBooks = 0;
+
+  //constructor
+  book(this.title, this.author, this.publication_year, this.pagesRead) {}
+
   
 }
 
