@@ -54,22 +54,20 @@ void main() {
   book3.read(42);
 
   print("\nBook no ${book1.BookIndex}. : Name of the book-->  "
-      "${book1.getTitle()}"
-      " by "
-      "${book1.getAuthor()}"
-      ", first published at ${book1.getPublicationYear()}, I have read: ${book1.getPagesRead()} Pages, Book Age:${book1.getBookAge()} years");
-
+      "'${book1.getTitle()}'"
+      " , Author Name: "
+      "'${book1.getAuthor()}'"
+      ", First Published at ${book1.getPublicationYear()}, I have read: ${book1.getPagesRead()} Pages, Book Age:${book1.getBookAge()} years");
 
   print("\nBook no ${book2.BookIndex}. : Name of the book-->  "
-      "${book2.getTitle()}"
-      " by "
-      "${book2.getAuthor()}"
-      ", first published at ${book2.getPublicationYear()}, I have read: ${book2.getPagesRead()} Pages, Book Age:${book2.getBookAge()} years");
+      "'${book2.getTitle()}'"
+      " , Author Name: "
+      "'${book2.getAuthor()}'"
+      ", First Published at ${book2.getPublicationYear()}, I have read: ${book2.getPagesRead()} Pages, Book Age:${book2.getBookAge()} years");
 
-      
   print("\nBook no ${book3.BookIndex}. : Name of the book-->  "
-      "${book3.getTitle()}"
-      " by "
-      "${book3.getAuthor()}"
-      ", first published at ${book3.getPublicationYear()}, I have read: ${book3.getPagesRead()} Pages, Book Age:${book3.getBookAge()} years");
+      "'${book3.getTitle()}'"
+      " , Author Name: "
+      "'${book3.getAuthor()}'"
+      ", First Published at ${book3.getPublicationYear()}, I have read: ${book3.getPagesRead()} Pages, Book Age:${book3.getBookAge()} years");
 }
