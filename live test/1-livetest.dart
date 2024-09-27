@@ -20,5 +20,5 @@ main() {
   print("Brand: ${car1.brand}");
   print("\nModel: ${car1.Model}");
   print("\nYear: ${car1.year}");
-  print("\nCar Age: ${car1.carAge()} years. ");
+  print("\nCar Age: ${car1.carAge()} years ");
 }
